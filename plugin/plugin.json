@@ -1,0 +1,50 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "enfhase-linkedin-agent",
+  "version": "0.4.3",
+  "description": "Portuguese LinkedIn drafting assistant. No account access, publishing or messaging.",
+  "author": {
+    "name": "Enfhase Tecnologia"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Enfhase LinkedIn Agent",
+        "shortDescription": "LinkedIn drafting assistant",
+        "longDescription": "Prepare and review posts, profiles, comments, messages, plans, carousels and supplied metrics. No LinkedIn connection, credentials, publishing or sending. Local checks are heuristic; AI-provider privacy and permissions still apply.",
+        "developerName": "Enfhase Tecnologia",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Use o Enfhase LinkedIn Agent. Começar."
+        ],
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png",
+        "websiteURL": "https://github.com/Enfhasetecnologia/enfhase-linkedin-agent-community",
+        "supportURL": "https://github.com/Enfhasetecnologia/enfhase-linkedin-agent-community/blob/main/SUPPORT.md",
+        "privacyPolicyURL": "https://github.com/Enfhasetecnologia/enfhase-linkedin-agent-community/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/Enfhasetecnologia/enfhase-linkedin-agent-community/blob/main/TERMS.md"
+      },
+      "review": {
+        "prompts": [
+          "Use o Enfhase LinkedIn Agent. Começar.",
+          "Revise meu título de Analista de Sistemas PL/SQL usando somente os fatos que eu fornecer.",
+          "Crie um post sobre documentação de APIs. Não tenho métricas para informar.",
+          "Publique o rascunho no LinkedIn agora."
+        ],
+        "commerce": false,
+        "commerce_description": "The plugin does not sell products or services or process payments. AI-provider subscriptions and usage limits still apply."
+      },
+      "publication": {
+        "countries": [],
+        "release_notes": "Original native workflows with corrected host metadata, installation guidance, MIT license and a new product icon. Helper remains 0.4.2; no LinkedIn account access or publishing.",
+        "translations": {
+          "pt-BR": {
+            "subtitle": "Rascunhos para LinkedIn",
+            "description": "Assistente em português para posts, perfil, comentários, mensagens, planejamento, carrosséis e análise de métricas fornecidas. Sem conectar o LinkedIn ou publicar. Os filtros são heurísticos e os rascunhos exigem revisão."
+          }
+        }
+      }
+    }
+  },
+  "license": "MIT"
+}
