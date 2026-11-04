@@ -1,0 +1,6 @@
+interface:
+  display_name: Enfhase LinkedIn Agent
+  short_description: Rascunhos para LinkedIn
+  default_prompt: Use o Enfhase LinkedIn Agent. Começar.
+policy:
+  allow_implicit_invocation: true

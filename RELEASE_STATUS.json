@@ -1,0 +1,15 @@
+{
+  "state": "owner_approved_pending_release_checks",
+  "helper_version": "0.4.2",
+  "source_commit": "093f3c3e5949f14c07b73f3f467f91a666e03ae2",
+  "package_version": "0.4.3",
+  "includes_git_history": false,
+  "includes_api_backend": false,
+  "license": "MIT; owner approved native distribution; original repository LICENSE unchanged",
+  "blockers": [
+    "enable and verify GitHub private vulnerability reporting on distribution repository",
+    "import of the new Claude archive and end-user use of the saved ChatGPT plugin",
+    "ChatGPT Chat and iPhone acceptance tests",
+    "OpenAI identity, icon, public policy URLs and catalog review for directory installation"
+  ]
+}

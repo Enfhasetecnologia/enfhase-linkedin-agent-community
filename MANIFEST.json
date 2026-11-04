@@ -1,0 +1,29 @@
+{
+  "package_version": "0.4.3",
+  "helper_version": "0.4.2",
+  "files": {
+    ".github/workflows/security.yml": "2aacdd1aef915a3faa08d74de1a215fe22430bd44e40e6cec7e0cc2370612889",
+    "INSTALL.md": "15d23a66b9bce54a60963605d68fb1259797eb86a9a77da2a729ad1c4676395b",
+    "LICENSE": "8729f2b3e89c243497aec84400e895552c8b6160d0f8836b1545cd374c9c558d",
+    "ORIGINALITY.md": "141c52024565fb1b1eb1969e54ba495182f6bfb41371f5eef57d5112850d3a9c",
+    "PRIVACY.md": "0b92a07a7027b9be4e6ebe280cdf4d1248e5052cdc74ee92db48927870f7bf8a",
+    "README.md": "342d3f92d2f55f62765deb909c83438131722964286a27247fa3cb0145123a4a",
+    "RELEASE_STATUS.json": "4b0941f1d68d26cb939d94ffe6d6627deb0942695c669f7fa4d2b1bb6d74a4bd",
+    "SECURITY.md": "581d1f6e55af858447d66e5ca7f4c0866ad665dc388f5e5f1059b36e4a255a10",
+    "SHA256SUMS": "0ef63bd87f26a2103216cea622115a64ef53c1f5cf685e26f9b2ee2aedf00575",
+    "SUPPORT.md": "59f7cf889c4c838c23c5076ccfc0024c12ab1a57a299cbdf8b4a4e922bf994a3",
+    "TERMS.md": "553afb7e4437cbd6588155545cda54fcbaacbdcb4c5892afbb09ee89a460250c",
+    "assets/icon.png": "ee855828abaaba57192383a74f6d63a2c4b3f002d81346976d3525e5f72ec5e6",
+    "native/enfhase-linkedin-agent/SKILL.md": "36996f962586436301643b5f3eebb6d00f8c923670eb81a5f8844369d5cef5e4",
+    "native/enfhase-linkedin-agent/agents/openai.yaml": "33f6843ff1612efdb8d33bf5ec0cd7f38887fc6c1abf04cf9060d6b3e71a977e",
+    "native/enfhase-linkedin-agent/references/precision.md": "52a9b78b9614d8bc862a6acee8a7e01f05a9b3f64e32aaf090a9eff61213abd5",
+    "native/enfhase-linkedin-agent/references/tools.md": "046a71d0289d066eb8dd546b6c50c0c981f0f2a3d3673d61d3143a3a4b044027",
+    "native/enfhase-linkedin-agent/references/workflows.md": "e51fad54719b6ed5e95ddf1cd982868fe898f1cdf2f331cf8c824f7ca3b9066a",
+    "native/enfhase-linkedin-agent/scripts/editorial.py": "a354e35c0b4873d8d3e52947226a80abcd96aba78eb83647accc57297fb40f5c",
+    "packages/enfhase-linkedin-agent-chatgpt-0.4.3.zip": "bad455ea5b2a8dca7d8b130ce4be05877e2e12cb9dc8a7e4df49533c7841ef49",
+    "packages/enfhase-linkedin-agent-claude-0.4.3.zip": "12461d5d81d762575bd595c30e8c9800ecaf756e02ab5983e94d5a5774da1ca2",
+    "plugin/plugin.json": "1ecb90a7b4c1d079ecbff2fa2e213c4ff02539dd1d2cb9ce42853e51a24683ac",
+    "tests/test_native_workflows.py": "e56d14cb1e9d5a5d4928e5b24d0cdc823ea0646ecd1fd4696adb9739482ecc39",
+    "tools/verify_distribution.py": "958f1424fccf1635a1ff2d82c53c41b9e0a7262683941db494faa5ba40033016"
+  }
+}
