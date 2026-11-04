@@ -6,7 +6,7 @@
 
 **Sincronização automática:** o repositório inclui os catálogos necessários. Uma melhoria aprovada na `main` vira a fonte da próxima sincronização do aplicativo, sem servidor próprio ou chave de API.
 
-- ChatGPT: disponível por importação de marketplace em workspace administrado. O administrador importa este repositório e mantém a sincronização diária. Isso não foi ativado nesta conta pessoal.
+- ChatGPT: disponível por importação de marketplace em workspace administrado. O administrador importa este repositório e mantém a sincronização diária. O menu da conta pessoal testada não ofereceu importação de marketplace; isso não foi ativado.
 - Claude Code: adicione o marketplace e ative **Enable auto-update**. A próxima sessão carrega a atualização. Isso não comprova atualização automática no Claude Chat ou iPhone.
 - Claude Chat: skills compartilhadas em Team/Enterprise acompanham a versão do proprietário; uma cópia por ZIP não acompanha o GitHub.
 
@@ -18,7 +18,7 @@ Não contrate plano nem mude permissões para seguir este guia. Sem o recurso na
 
 **Automatic sync:** this repository includes marketplace files. An improvement merged into `main` becomes the source for the app's next sync, with no custom server or API key.
 
-- ChatGPT: an administrator can import this repository into a managed workspace and keep daily sync on. This is not enabled in this personal account.
+- ChatGPT: an administrator can import this repository into a managed workspace and keep daily sync on. The tested personal account offered no marketplace import; this is not enabled.
 - Claude Code: add the marketplace and select **Enable auto-update**. The next session loads the update. This does not validate automatic updates in Claude Chat or on iPhone.
 - Claude Chat: skills shared on Team/Enterprise follow the owner's version; a ZIP copy does not follow GitHub.
 

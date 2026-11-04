@@ -118,7 +118,7 @@ def candidate_entries(root=ROOT):
     entries.update(packages)
     entries['SHA256SUMS'] = ''.join(f'{digest(data)}  {name}\n' for name, data in sorted(packages.items())).encode()
     status = {
-        'state': 'owner_approved_pending_release_checks',
+        'state': 'web_acceptance_complete_with_corrections',
         'helper_version': version, 'source_commit': SOURCE_COMMIT,
         'package_version': PACKAGE_VERSION,
         'includes_git_history': False, 'includes_api_backend': False,
@@ -126,7 +126,7 @@ def candidate_entries(root=ROOT):
         'github_distribution': 'public; private vulnerability reporting, secret scanning and push protection enabled; main protected',
         'acceptance_scope': 'See HOMOLOGATION.md; assisted Work runtime and Claude web; no universal host approval',
         'updates': 'Repository marketplaces prepared; synchronization is host-managed and not activated in this account; manual ZIP copies do not auto-update',
-        'blockers': ['ChatGPT Chat and iPhone acceptance require access to those actual clients',
+        'blockers': ['Native iPhone app acceptance has not been tested; Chat web textual flow and Work web PDF delivery were exercised',
                      'OpenAI directory submission stopped by owner; no billing, payment setup or publisher onboarding authorized'],
     }
     entries['RELEASE_STATUS.json'] = (json.dumps(status, indent=2) + '\n').encode()
