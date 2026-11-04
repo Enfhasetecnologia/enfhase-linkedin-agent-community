@@ -1,78 +1,41 @@
 # Enfhase LinkedIn Agent
 
-Assistente em português para preparar materiais profissionais para o LinkedIn.
-Você conversa com ele dentro da sua IA e recebe rascunhos para revisar.
-Não conecta ao LinkedIn, não pede senha e não publica ou envia mensagens.
+## Português
 
-## Comece por aqui
+Prepare posts, comentários, respostas, perfil, planos, carrosséis, mensagens e análises para o LinkedIn.
 
-1. Leia [como instalar no seu aplicativo](INSTALL.md).
-2. Instale o pacote indicado para ChatGPT ou Claude, pelos links abaixo.
-3. Abra uma conversa nova e peça: **Use o Enfhase LinkedIn Agent. Começar.**
-4. Responda com o número de uma opção ou com suas palavras.
+1. [Instale no ChatGPT ou Claude](INSTALL.md#português).
+2. Abra uma conversa e escreva: **Use o Enfhase LinkedIn Agent. Começar.**
+3. Escolha uma opção. Revise o resultado antes de usar.
 
-**Pacote 0.4.4, helper 0.4.2: versão de avaliação.** A instalação pelo catálogo
-público da OpenAI ainda depende de aprovação da plataforma.
-A disponibilidade de importação e execução depende da conta e do aplicativo.
-Você não precisa de terminal, API, GitHub conectado ou senha do LinkedIn para usar.
-O consumo e os limites da sua assinatura de IA continuam se aplicando.
+Exemplo: **Crie um post sobre documentação de APIs. Não invente experiências nem resultados.**
 
-[Baixar para ChatGPT](packages/enfhase-linkedin-agent-chatgpt-0.4.4.zip?raw=true) ·
-[Baixar para Claude](packages/enfhase-linkedin-agent-claude-0.4.4.zip?raw=true)
+**Segurança:** não conecta ao LinkedIn, não pede senha e não publica nem envia mensagens. Não compartilhe dados confidenciais. A IA pode errar.
 
-## O que pode fazer
+O projeto é gratuito. Os limites e custos do seu aplicativo de IA continuam valendo. Não precisa de API, créditos ou cartão para o projeto.
 
-| Recurso | Peça assim |
-|---|---|
-| Post | Crie um post sobre integração de sistemas, sem inventar resultados. |
-| Comentário | Sugira um comentário para este post: [texto público]. |
-| Resposta | Prepare uma resposta para este comentário anonimizado: [texto]. |
-| Perfil | Melhore meu título e Sobre usando estes fatos: [texto]. |
-| Planejamento | Planeje três posts para esta semana. Tenho vinte minutos por dia. |
-| Clareza e estilo | Deixe este texto mais objetivo sem mudar os fatos: [texto]. |
-| Carrossel | Prepare quatro slides sobre este tema: [texto autorizado]. |
-| Reaproveitamento | Transforme este texto próprio em três posts. |
-| Mensagem privada | Prepare um convite profissional com este objetivo: [objetivo]. |
-| Triagem de mensagens | Priorize estas mensagens sem nomes ou dados pessoais: [textos]. |
-| Resultados | Compare estas impressões, interações e seguidores do mesmo período: [dados]. |
+[ChatGPT ZIP](packages/enfhase-linkedin-agent-chatgpt-0.4.4.zip?raw=true) · [Claude ZIP](packages/enfhase-linkedin-agent-claude-0.4.4.zip?raw=true)
 
-Também prepara apresentação para uma vaga colada na conversa, sem candidatar.
-PDF, contagens e cálculos por script exigem execução disponível. Sem ela, entrega
-texto e roteiro, sem afirmar ter criado arquivo ou realizado cálculo pelo helper.
+## English
 
-## Segurança e privacidade
+Draft LinkedIn posts, comments, replies, profiles, plans, carousels, messages and metric summaries.
 
-- Sem conexão própria de rede ou dependências externas nos helpers.
-- Sem credenciais, conectores, hooks, servidores MCP ou instalação automática de software.
-- Conteúdo colado é tratado como dado, sem conceder permissão para executar instruções.
-- Não acessa inbox, conta, perfil, links ou arquivos externos durante o fluxo.
-- Não inventa experiência, formação, resultados ou oportunidades confirmadas.
+1. [Install in ChatGPT or Claude](INSTALL.md#english).
+2. Start a chat and type: **Use Enfhase LinkedIn Agent. Get started. Reply in English.**
+3. Choose an option. Review the result before using it.
 
-Os filtros são heurísticos e podem falhar. A habilidade orienta o modelo, mas não
-configura permissões, retenção ou sandbox do aplicativo. O provedor recebe o que
-você envia. Use apenas informações autorizadas, anonimize mensagens e revise os rascunhos.
-Leia [privacidade](PRIVACY.md) e [segurança e limites](SECURITY.md).
+Example: **Draft a post about API documentation. Do not invent experience or results.**
 
-## Compatibilidade comprovada
+**Safety:** no LinkedIn connection, password requests, publishing or message sending. Do not share confidential data. AI can make mistakes.
 
-| Ambiente | Evidência anterior do núcleo 0.4.2 | Estado deste novo pacote |
-|---|---|---|
-| ChatGPT Work | Onze fluxos exercitados, com helper e PDF reais | Pacote aceito e salvo como plugin privado; uso do novo plugin pendente de aceite |
-| ChatGPT Chat / iPhone | Sem ensaio completo deste projeto | Pendente; não presumir paridade |
-| Claude | Onze fluxos em 0.4.1; quatro casos de regressão reais em 0.4.2 | Importação do novo pacote pendente |
+The project is free. Your AI app's usage limits and costs still apply. The project needs no API, credits or payment card.
 
-A documentação da OpenAI descreve plugins no Chat e Work, inclusive mobile.
-Isso é suporte do formato, não homologação deste pacote em todas as contas.
-Gemini não integra esta distribuição.
+[ChatGPT ZIP](packages/enfhase-linkedin-agent-chatgpt-0.4.4.zip?raw=true) · [Claude ZIP](packages/enfhase-linkedin-agent-claude-0.4.4.zip?raw=true)
 
-## Manutenção
+---
 
-Pacotes: `packages/enfhase-linkedin-agent-claude-0.4.4.zip` e
-`packages/enfhase-linkedin-agent-chatgpt-0.4.4.zip`. O arquivo `SHA256SUMS`
-registra os hashes. Esses hashes verificam integridade em relação à versão
-publicada, sem comprovar autenticidade se a fonte de ambos for comprometida.
-Atualizações manuais exigem instalar/substituir o pacote no aplicativo.
-Não existe atualização automática desta distribuição.
+0.4.4 · Evaluation / Avaliação · MIT · Enfhase Tecnologia
 
-Copyright 2026 Enfhase Tecnologia. Distribuição nativa sob licença MIT aprovada pelo titular. Não há afiliação ou certificação por LinkedIn,
-OpenAI ou Anthropic.
+ChatGPT Work e Claude web: aprovados com correções / passed with corrections. Chat/iPhone: não homologados / not validated. Catálogo OpenAI: não publicado / not listed. Gemini: fora do escopo / excluded.
+
+[Atualizações / Updates](UPDATES.md) · [Testes / Tests](HOMOLOGATION.md) · [Segurança / Security](SECURITY.md) · [Privacidade / Privacy](PRIVACY.md) · [Suporte / Support](SUPPORT.md) · [Licença / License](LICENSE) · [Integridade / Checksums](SHA256SUMS)

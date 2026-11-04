@@ -1,0 +1,20 @@
+{
+  "name": "enfhase-community",
+  "interface": {
+    "displayName": "Enfhase Tecnologia"
+  },
+  "plugins": [
+    {
+      "name": "enfhase-linkedin-agent",
+      "source": {
+        "source": "local",
+        "path": "./native/enfhase-linkedin-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

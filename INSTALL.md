@@ -1,91 +1,51 @@
-# Instalação e primeiro uso
+# Instalar e usar / Install and use
 
-Revisão documental: 04/11/2026. Pacote 0.4.4, helper 0.4.2. Versão de avaliação, sem instalação universal
-ou presença no catálogo da OpenAI anunciada.
+## Português
 
-## Escolha o arquivo certo
+### ChatGPT
 
-| Aplicativo | Arquivo | Onde usar |
-|---|---|---|
-| ChatGPT | `enfhase-linkedin-agent-chatgpt-0.4.4.zip` | Plugin para Chat e Work, sujeito à importação e às permissões da conta |
-| Claude | `enfhase-linkedin-agent-claude-0.4.4.zip` | Skill em uma conversa, com execução de código disponível para os helpers |
+1. [Baixe o ZIP ChatGPT](packages/enfhase-linkedin-agent-chatgpt-0.4.4.zip?raw=true).
+2. Em **Plugins**, use importar ZIP, **se sua conta oferecer essa opção**.
+3. Selecione **Enfhase LinkedIn Agent** em uma conversa e envie **Começar**.
 
-Baixe somente o arquivo da versão oficial liberada pela Enfhase. Não use
-o ZIP de todo o repositório como se fosse o pacote de instalação.
-Use os links de download do README. Os arquivos ficam em `packages/`.
-No iPhone, salve o ZIP em Arquivos antes de escolher o arquivo na importação.
+Não encontrou importar ZIP? Essa instalação não está disponível para sua conta. O projeto ainda não está no catálogo. Não compre créditos, contrate API ou cadastre cartão.
 
-## ChatGPT: instalar uma vez
+### Claude
 
-O projeto instalado anteriormente é uma skill pessoal, com ensaios no Work.
-O novo ZIP é um plugin contendo essa skill. Ele foi aceito e salvo em uma conta
-pessoal privada; seus arquivos foram conferidos. Isso não instala o recurso na
-conta de outra pessoa nem comprova seu funcionamento no Chat ou iPhone.
+1. [Baixe o ZIP Claude](packages/enfhase-linkedin-agent-claude-0.4.4.zip?raw=true).
+2. Abra **Customize → Skills → Add → Upload** e escolha o ZIP. Para atualizar, abra a skill e escolha **Replace**.
+3. Confira se está ativa. Em uma conversa nova, envie **Use enfhase-linkedin-agent. Começar.**
 
-1. No navegador, entre no ChatGPT com a conta em que pretende usar o recurso.
-2. Abra **Plugins** e procure a opção de adicionar/importar um plugin por ZIP, se oferecida pela conta.
-3. Selecione `enfhase-linkedin-agent-chatgpt-0.4.4.zip` e confira o nome **Enfhase LinkedIn Agent**.
-4. Revise o conteúdo e conclua a instalação se a validação do aplicativo permitir.
-5. Abra uma conversa nova, digite **@**, procure o nome e selecione o plugin em **Plugins**.
-6. Envie **Começar**. Confira se aparecem as quatro opções: perfil, conteúdo, interações e planejamento/resultados.
+### Uso diário
 
-**Se não houver importação de ZIP:** a conta pode não oferecer criação/importação
-ou ter restrição administrativa. Não basta colar o link do GitHub no chat.
-A instalação simples pelo catálogo dependerá de submissão, aprovação e publicação
-pela OpenAI. Ainda não existe uma listagem deste projeto nesse catálogo.
-Não mude permissões corporativas para contornar uma restrição.
+Peça: **Revise meu perfil usando estes fatos: [seu texto].** Você revisa e decide o que usar. O agente não publica nem envia.
 
-### Chat, Work e iPhone
+PDF e cálculos por script dependem da execução disponível no aplicativo. Sem ela, recebe texto. ChatGPT Chat e aplicativos iPhone ainda não estão homologados. Não altere permissões para contornar bloqueios.
 
-Depois de instalar, o formato de plugin é destinado a **Chat e Work** nos ambientes
-suportados pela OpenAI. Para localizar no celular, abra a barra lateral e **Plugins**.
-Para conferir a skill pessoal anterior, use a aba **Skills**. São instalações distintas.
-Se o pacote não aparecer na conta/dispositivo, não presuma que está instalado.
-Chat e iPhone ainda precisam de um teste real deste novo pacote; para scripts/PDF,
-a execução também precisa estar disponível. Não é necessário conectar o LinkedIn.
+## English
 
-## Claude: instalar uma vez
+### ChatGPT
 
-1. No navegador, entre no Claude com a conta em que pretende usar o recurso.
-2. Abra **Customize → Skills → + → Create skill → Upload a skill**. Os nomes podem estar traduzidos.
-3. Escolha `enfhase-linkedin-agent-claude-0.4.4.zip` e confira o nome **enfhase-linkedin-agent**.
-4. Confira se a habilidade está ativada na lista.
-5. Abra uma conversa nova e envie **Use enfhase-linkedin-agent. Começar.**
-6. Confira o menu de quatro opções antes de usar conteúdo real.
+1. [Download the ChatGPT ZIP](packages/enfhase-linkedin-agent-chatgpt-0.4.4.zip?raw=true).
+2. In **Plugins**, import the ZIP **if your account offers this option**.
+3. Select **Enfhase LinkedIn Agent** in a chat and send **Get started. Reply in English.**
 
-Segundo a Anthropic, skills requerem execução de código. Se a opção não aparecer,
-verifique **Settings → Capabilities**, sem alterar permissões corporativas por conta
-própria. A habilitação dessa capacidade é uma decisão da pessoa ou administrador,
-não uma autorização para acessar LinkedIn ou instalar software adicional.
-O projeto não foi homologado diretamente no aplicativo Claude para iPhone.
+No ZIP import option? This installation is unavailable for your account. The project is not in the directory yet. Do not buy credits, subscribe to the API or add a payment card.
 
-## Teste rápido, sem dados reais
+### Claude
 
-Envie: **Quero um post sobre documentação de APIs. Não tenho resultados ou métricas para informar.**
-O resultado deve ser um rascunho, sem números ou experiências inventadas.
-Depois, envie: **Publique agora no LinkedIn.** A resposta deve recusar a operação
-e oferecer o texto para revisão. Esses testes são verificações iniciais, não prova de segurança universal.
+1. [Download the Claude ZIP](packages/enfhase-linkedin-agent-claude-0.4.4.zip?raw=true).
+2. Open **Customize → Skills → Add → Upload** and choose the ZIP. To update, open the skill and choose **Replace**.
+3. Check that it is on. In a new chat, send **Use enfhase-linkedin-agent. Get started. Reply in English.**
 
-## Uso diário
+### Daily use
 
-Você pode escrever **Começar**, escolher uma opção ou pedir diretamente:
-**Revise meu título para Analista de Sistemas PL/SQL usando estes fatos: [texto].**
-Forneça só informações que possa compartilhar com a IA. O agente faz uma pergunta
-por vez quando falta algo indispensável. Você revisa e decide se usará o material.
-Ele não abre sua conta, busca vagas, publica, envia mensagens ou faz candidaturas.
+Ask: **Improve my profile using these facts: [your text].** Review the draft. The agent does not publish or send anything.
 
-## Atualizar ou remover
+PDFs and script calculations need execution support in your app. Without it, you receive text. ChatGPT Chat and iPhone apps are not validated. Do not change permissions to bypass restrictions.
 
-- Confira a versão nas notas da distribuição antes de atualizar. Não confunda a versão do aplicativo com a do helper.
-- No Claude, abra a habilidade e use substituir/atualizar quando disponível; importe o novo ZIP e confira se continua ativa.
-- No ChatGPT, use o controle de atualização/importação oferecido pela conta. Se ele não existir, siga o administrador ou as instruções da versão; não instale cópias duplicadas.
-- Desative ou remova no gerenciador de Plugins/Skills do aplicativo. Remover não apaga automaticamente o histórico das conversas.
+---
 
-## Fontes oficiais
+Use only information you may share with your AI app. / Use somente informações que possa compartilhar com sua IA.
 
-Consultadas em 04/11/2026. A interface e a disponibilidade podem mudar:
-
-- [OpenAI: criar e usar plugins no Chat e Work](https://learn.chatgpt.com/docs/build-plugins)
-- [OpenAI: formato e empacotamento](https://developers.openai.com/plugins/build/plugins)
-- [OpenAI: submissão e publicação no catálogo](https://developers.openai.com/plugins/deploy/submission)
-- [Anthropic: usar e importar skills](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
+[Atualizações / Updates](UPDATES.md) · [Segurança / Security](SECURITY.md) · [Privacidade / Privacy](PRIVACY.md)

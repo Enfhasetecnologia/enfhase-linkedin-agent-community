@@ -16,3 +16,7 @@ jobs:
         run: |
           python3 -m unittest discover -s tests -v
           python3 tools/verify_distribution.py
+      - name: Rebuild distribution from reviewed sources
+        run: |
+          python3 tools/build_public_distribution.py
+          python3 dist/public-candidate/tools/verify_distribution.py

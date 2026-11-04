@@ -16,6 +16,24 @@ spec.loader.exec_module(builder)
 
 
 class PublicDistributionChecks(unittest.TestCase):
+    def test_repository_sync_uses_only_the_canonical_skill_without_new_capabilities(self):
+        entries = builder.candidate_entries()
+        codex = json.loads(entries['.agents/plugins/marketplace.json'])
+        claude = json.loads(entries['.claude-plugin/marketplace.json'])
+        self.assertEqual(len(codex['plugins']), 1)
+        self.assertEqual(len(claude['plugins']), 1)
+        path = './native/enfhase-linkedin-agent'
+        self.assertEqual(codex['plugins'][0]['source'], {'source': 'local', 'path': path})
+        self.assertEqual(claude['plugins'][0]['source'], path)
+        self.assertEqual(codex['plugins'][0]['policy']['installation'], 'AVAILABLE')
+        self.assertNotIn('pluginId', codex['plugins'][0])
+        manifest = json.loads(entries['native/enfhase-linkedin-agent/.claude-plugin/plugin.json'])
+        self.assertEqual(set(manifest), {'name', 'version', 'description', 'author', 'license', 'skills'})
+        self.assertEqual(manifest['skills'], ['./'])
+        self.assertEqual(manifest['version'], builder.PACKAGE_VERSION)
+        self.assertEqual(entries['native/enfhase-linkedin-agent/scripts/editorial.py'],
+                         (ROOT/'native/enfhase-linkedin-agent/scripts/editorial.py').read_bytes())
+
     def test_plugin_metadata_has_short_subtitle_and_no_dangling_icons(self):
         entries = builder.candidate_entries()
         plugin = json.loads(entries['plugin/plugin.json'])

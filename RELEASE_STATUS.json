@@ -7,9 +7,10 @@
   "includes_api_backend": false,
   "license": "MIT; owner approved native distribution; original repository LICENSE unchanged",
   "github_distribution": "public; private vulnerability reporting, secret scanning and push protection enabled; main protected",
+  "acceptance_scope": "See HOMOLOGATION.md; assisted Work runtime and Claude web; no universal host approval",
+  "updates": "Repository marketplaces prepared; synchronization is host-managed and not activated in this account; manual ZIP copies do not auto-update",
   "blockers": [
-    "import of the new Claude archive and end-user use of the saved ChatGPT plugin",
-    "ChatGPT Chat and iPhone acceptance tests",
-    "OpenAI business publisher verification, portal validation and review for directory installation"
+    "ChatGPT Chat and iPhone acceptance require access to those actual clients",
+    "OpenAI directory submission stopped by owner; no billing, payment setup or publisher onboarding authorized"
   ]
 }
