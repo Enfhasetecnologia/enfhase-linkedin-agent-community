@@ -44,3 +44,9 @@ The public ZIP was imported into Claude and downloaded for verification: six ide
 Os catálogos GitHub apontam para a fonte canônica. Não foram ativados nesta conta. Nenhum downloader, hook, conector ou autoexecutor foi adicionado à skill. Atualizações recebidas pelo aplicativo dependem da sincronização e das permissões nativas do host; cópias ZIP continuam manuais.
 
 GitHub marketplaces point to the canonical source. They were not activated in this account. No downloader, hook, connector or automatic executor was added to the skill. Receiving updates depends on the host's native sync and permissions; ZIP copies remain manual.
+
+## Entrega pelo aplicativo / App delivery
+
+O helper gera um PDF estático sem anexos. No ensaio Work web, a cópia entregue pelo aplicativo recebeu um anexo de Content Credentials (application/c2pa). A inspeção encontrou quatro páginas, sem JavaScript, formulários ou anotações de página. A ausência de anexos vale para a saída bruta do helper, não para toda transformação posterior do provedor.
+
+The helper generates a static PDF without attachments. In the Work web trial, the host-delivered copy received a Content Credentials attachment (application/c2pa). Inspection found four pages, with no JavaScript, forms or page annotations. The no-attachment statement applies to the raw helper output, not every later provider transformation.

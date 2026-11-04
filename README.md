@@ -36,6 +36,6 @@ The project is free. Your AI app's usage limits and costs still apply. The proje
 
 0.4.4 · Evaluation / Avaliação · MIT · Enfhase Tecnologia
 
-ChatGPT Work e Claude web: aprovados com correções / passed with corrections. Chat/iPhone: não homologados / not validated. Catálogo OpenAI: não publicado / not listed. Gemini: fora do escopo / excluded.
+ChatGPT Chat web (texto), Work e Claude web: aprovados com correções / passed with corrections. App iPhone: não testado / not tested. Catálogo OpenAI: não publicado / not listed. Gemini: fora do escopo / excluded.
 
 [Atualizações / Updates](UPDATES.md) · [Testes / Tests](HOMOLOGATION.md) · [Segurança / Security](SECURITY.md) · [Privacidade / Privacy](PRIVACY.md) · [Suporte / Support](SUPPORT.md) · [Licença / License](LICENSE) · [Integridade / Checksums](SHA256SUMS)

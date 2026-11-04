@@ -5,7 +5,7 @@
 ### ChatGPT
 
 1. [Baixe o ZIP ChatGPT](packages/enfhase-linkedin-agent-chatgpt-0.4.4.zip?raw=true).
-2. Em **Plugins**, use importar ZIP, **se sua conta oferecer essa opção**.
+2. Abra **Plugins → Add → Upload plugin archive**, **se disponível na sua conta**.
 3. Selecione **Enfhase LinkedIn Agent** em uma conversa e envie **Começar**.
 
 Não encontrou importar ZIP? Essa instalação não está disponível para sua conta. O projeto ainda não está no catálogo. Não compre créditos, contrate API ou cadastre cartão.
@@ -20,14 +20,14 @@ Não encontrou importar ZIP? Essa instalação não está disponível para sua c
 
 Peça: **Revise meu perfil usando estes fatos: [seu texto].** Você revisa e decide o que usar. O agente não publica nem envia.
 
-PDF e cálculos por script dependem da execução disponível no aplicativo. Sem ela, recebe texto. ChatGPT Chat e aplicativos iPhone ainda não estão homologados. Não altere permissões para contornar bloqueios.
+**Chat:** textos e roteiros. **Work:** use para PDF e execução do helper, quando disponíveis. No ensaio web, o Chat não executou o helper. O app iPhone não foi testado. Não altere permissões para contornar bloqueios.
 
 ## English
 
 ### ChatGPT
 
 1. [Download the ChatGPT ZIP](packages/enfhase-linkedin-agent-chatgpt-0.4.4.zip?raw=true).
-2. In **Plugins**, import the ZIP **if your account offers this option**.
+2. Open **Plugins → Add → Upload plugin archive**, **if your account offers it**.
 3. Select **Enfhase LinkedIn Agent** in a chat and send **Get started. Reply in English.**
 
 No ZIP import option? This installation is unavailable for your account. The project is not in the directory yet. Do not buy credits, subscribe to the API or add a payment card.
@@ -42,7 +42,7 @@ No ZIP import option? This installation is unavailable for your account. The pro
 
 Ask: **Improve my profile using these facts: [your text].** Review the draft. The agent does not publish or send anything.
 
-PDFs and script calculations need execution support in your app. Without it, you receive text. ChatGPT Chat and iPhone apps are not validated. Do not change permissions to bypass restrictions.
+**Chat:** text and storyboards. **Work:** use for PDFs and helper execution, when available. The web Chat trial had no helper execution. The iPhone app was not tested. Do not change permissions to bypass restrictions.
 
 ---
 

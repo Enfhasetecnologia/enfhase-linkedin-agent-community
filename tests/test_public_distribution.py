@@ -56,7 +56,7 @@ class PublicDistributionChecks(unittest.TestCase):
             self.assertFalse(any(part in {'.git', 'eval', 'tmp', 'src', '.env'} for part in Path(name).parts), name)
         self.assertNotIn('docs/CLAUDE_VALIDATION.json', entries)
         self.assertEqual(json.loads(entries['RELEASE_STATUS.json'])['state'],
-                         'owner_approved_pending_release_checks')
+                         'web_acceptance_complete_with_corrections')
         if (ROOT/'distribution').is_dir():
             self.assertTrue((ROOT/'LICENSE').read_text().startswith('Copyright'))
             self.assertIn('without written authorization', (ROOT/'LICENSE').read_text())

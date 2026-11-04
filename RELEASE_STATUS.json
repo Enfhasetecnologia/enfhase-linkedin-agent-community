@@ -1,5 +1,5 @@
 {
-  "state": "owner_approved_pending_release_checks",
+  "state": "web_acceptance_complete_with_corrections",
   "helper_version": "0.4.2",
   "source_commit": "093f3c3e5949f14c07b73f3f467f91a666e03ae2",
   "package_version": "0.4.4",
@@ -10,7 +10,7 @@
   "acceptance_scope": "See HOMOLOGATION.md; assisted Work runtime and Claude web; no universal host approval",
   "updates": "Repository marketplaces prepared; synchronization is host-managed and not activated in this account; manual ZIP copies do not auto-update",
   "blockers": [
-    "ChatGPT Chat and iPhone acceptance require access to those actual clients",
+    "Native iPhone app acceptance has not been tested; Chat web textual flow and Work web PDF delivery were exercised",
     "OpenAI directory submission stopped by owner; no billing, payment setup or publisher onboarding authorized"
   ]
 }
