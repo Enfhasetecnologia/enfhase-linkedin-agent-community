@@ -35,11 +35,12 @@ protection também estão ativos. A branch main exige PR, CI aprovado e resoluç
 das conversas, sem bypass de administradores; force push e exclusão não foram permitidos.
 Não há SLA ou suporte garantido declarado nesta versão.
 
-## Evidências
+## Evidências / Evidence
 
-O código do núcleo foi comparado a uma revisão privada fixa. Os testes automatizados
-e a inspeção do conteúdo dos pacotes estão registrados no relatório privado de
-preparação. Resultados locais não equivalem a instalação ou homologação nos aplicativos.
-O pacote ChatGPT foi aceito e salvo como plugin privado, com conteúdo relido e
-conferido. Isso não comprova uso nos onze fluxos. Testes reais no Chat e iPhone,
-e importação do novo ZIP Claude, ainda estão pendentes.
+O ZIP público foi importado no Claude e baixado para conferência: seis arquivos da skill idênticos. Onze fluxos finais revisados em Work e Claude web, com correções preservadas no registro privado. PDFs reais de quatro páginas inspecionados nos dois ambientes. Leia [o escopo dos testes](HOMOLOGATION.md).
+
+The public ZIP was imported into Claude and downloaded for verification: six identical skill files. Eleven final flows reviewed in Work and Claude web, with corrections preserved in the private record. Real four-page PDFs inspected in both environments. See [tested scope](HOMOLOGATION.md).
+
+Os catálogos GitHub apontam para a fonte canônica. Não foram ativados nesta conta. Nenhum downloader, hook, conector ou autoexecutor foi adicionado à skill. Atualizações recebidas pelo aplicativo dependem da sincronização e das permissões nativas do host; cópias ZIP continuam manuais.
+
+GitHub marketplaces point to the canonical source. They were not activated in this account. No downloader, hook, connector or automatic executor was added to the skill. Receiving updates depends on the host's native sync and permissions; ZIP copies remain manual.

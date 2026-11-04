@@ -1,0 +1,14 @@
+{
+  "name": "enfhase-community",
+  "owner": {
+    "name": "Enfhase Tecnologia"
+  },
+  "plugins": [
+    {
+      "name": "enfhase-linkedin-agent",
+      "source": "./native/enfhase-linkedin-agent",
+      "version": "0.4.4",
+      "description": "Portuguese LinkedIn drafting assistant. No account access, publishing or messaging."
+    }
+  ]
+}

@@ -12,7 +12,7 @@ SKILL_FILES = (
     'SKILL.md', 'agents/openai.yaml', 'references/workflows.md',
     'references/tools.md', 'references/precision.md', 'scripts/editorial.py',
 )
-DOCUMENTS = ('README.md', 'INSTALL.md', 'PRIVACY.md', 'SECURITY.md', 'ORIGINALITY.md', 'SUPPORT.md', 'TERMS.md')
+DOCUMENTS = ('README.md', 'INSTALL.md', 'PRIVACY.md', 'SECURITY.md', 'ORIGINALITY.md', 'SUPPORT.md', 'TERMS.md', 'UPDATES.md', 'HOMOLOGATION.md')
 SOURCE_COMMIT = '093f3c3e5949f14c07b73f3f467f91a666e03ae2'
 
 
@@ -80,6 +80,27 @@ def candidate_entries(root=ROOT):
     entries['tools/verify_distribution.py'] = reviewed_file(root, template_prefix+'verify_distribution.py' if template_prefix else 'tools/verify_distribution.py')
     entries['tools/build_public_distribution.py'] = reviewed_file(root, 'tools/build_public_distribution.py')
     entries.update({'native/enfhase-linkedin-agent/' + name: data for name, data in skill.items()})
+    # Repository installs read the canonical skill, never a separately copied helper.
+    marketplace_name = 'enfhase-community'
+    skill_path = './native/enfhase-linkedin-agent'
+    claude_manifest = {
+        'name': plugin['name'], 'version': PACKAGE_VERSION,
+        'description': plugin['description'], 'author': {'name': 'Enfhase Tecnologia'},
+        'license': 'MIT', 'skills': ['./'],
+    }
+    entries['native/enfhase-linkedin-agent/.claude-plugin/plugin.json'] = (json.dumps(claude_manifest, indent=2) + '\n').encode()
+    entries['native/enfhase-linkedin-agent/LICENSE'] = license_data
+    entries['.agents/plugins/marketplace.json'] = (json.dumps({
+        'name': marketplace_name, 'interface': {'displayName': 'Enfhase Tecnologia'},
+        'plugins': [{'name': plugin['name'], 'source': {'source': 'local', 'path': skill_path},
+                     'policy': {'installation': 'AVAILABLE', 'authentication': 'ON_USE'},
+                     'category': 'Productivity'}],
+    }, indent=2) + '\n').encode()
+    entries['.claude-plugin/marketplace.json'] = (json.dumps({
+        'name': marketplace_name, 'owner': {'name': 'Enfhase Tecnologia'},
+        'plugins': [{'name': plugin['name'], 'source': skill_path, 'version': PACKAGE_VERSION,
+                     'description': plugin['description']}],
+    }, indent=2) + '\n').encode()
     entries['plugin/plugin.json'] = template
     entries['tests/test_native_workflows.py'] = reviewed_file(root, 'tests/test_native_workflows.py')
     entries['tests/test_public_distribution.py'] = reviewed_file(root, 'tests/test_public_distribution.py')
@@ -103,9 +124,10 @@ def candidate_entries(root=ROOT):
         'includes_git_history': False, 'includes_api_backend': False,
         'license': 'MIT; owner approved native distribution; original repository LICENSE unchanged',
         'github_distribution': 'public; private vulnerability reporting, secret scanning and push protection enabled; main protected',
-        'blockers': ['import of the new Claude archive and end-user use of the saved ChatGPT plugin',
-                     'ChatGPT Chat and iPhone acceptance tests',
-                     'OpenAI business publisher verification, portal validation and review for directory installation'],
+        'acceptance_scope': 'See HOMOLOGATION.md; assisted Work runtime and Claude web; no universal host approval',
+        'updates': 'Repository marketplaces prepared; synchronization is host-managed and not activated in this account; manual ZIP copies do not auto-update',
+        'blockers': ['ChatGPT Chat and iPhone acceptance require access to those actual clients',
+                     'OpenAI directory submission stopped by owner; no billing, payment setup or publisher onboarding authorized'],
     }
     entries['RELEASE_STATUS.json'] = (json.dumps(status, indent=2) + '\n').encode()
     for name, data in entries.items():
