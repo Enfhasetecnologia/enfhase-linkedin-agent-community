@@ -1,14 +1,14 @@
 # Instalação e primeiro uso
 
-Revisão documental: 04/11/2026. Pacote 0.4.3, helper 0.4.2. Versão de avaliação, sem instalação universal
+Revisão documental: 04/11/2026. Pacote 0.4.4, helper 0.4.2. Versão de avaliação, sem instalação universal
 ou presença no catálogo da OpenAI anunciada.
 
 ## Escolha o arquivo certo
 
 | Aplicativo | Arquivo | Onde usar |
 |---|---|---|
-| ChatGPT | `enfhase-linkedin-agent-chatgpt-0.4.3.zip` | Plugin para Chat e Work, sujeito à importação e às permissões da conta |
-| Claude | `enfhase-linkedin-agent-claude-0.4.3.zip` | Skill em uma conversa, com execução de código disponível para os helpers |
+| ChatGPT | `enfhase-linkedin-agent-chatgpt-0.4.4.zip` | Plugin para Chat e Work, sujeito à importação e às permissões da conta |
+| Claude | `enfhase-linkedin-agent-claude-0.4.4.zip` | Skill em uma conversa, com execução de código disponível para os helpers |
 
 Baixe somente o arquivo da versão oficial liberada pela Enfhase. Não use
 o ZIP de todo o repositório como se fosse o pacote de instalação.
@@ -24,7 +24,7 @@ conta de outra pessoa nem comprova seu funcionamento no Chat ou iPhone.
 
 1. No navegador, entre no ChatGPT com a conta em que pretende usar o recurso.
 2. Abra **Plugins** e procure a opção de adicionar/importar um plugin por ZIP, se oferecida pela conta.
-3. Selecione `enfhase-linkedin-agent-chatgpt-0.4.3.zip` e confira o nome **Enfhase LinkedIn Agent**.
+3. Selecione `enfhase-linkedin-agent-chatgpt-0.4.4.zip` e confira o nome **Enfhase LinkedIn Agent**.
 4. Revise o conteúdo e conclua a instalação se a validação do aplicativo permitir.
 5. Abra uma conversa nova, digite **@**, procure o nome e selecione o plugin em **Plugins**.
 6. Envie **Começar**. Confira se aparecem as quatro opções: perfil, conteúdo, interações e planejamento/resultados.
@@ -48,7 +48,7 @@ a execução também precisa estar disponível. Não é necessário conectar o L
 
 1. No navegador, entre no Claude com a conta em que pretende usar o recurso.
 2. Abra **Customize → Skills → + → Create skill → Upload a skill**. Os nomes podem estar traduzidos.
-3. Escolha `enfhase-linkedin-agent-claude-0.4.3.zip` e confira o nome **enfhase-linkedin-agent**.
+3. Escolha `enfhase-linkedin-agent-claude-0.4.4.zip` e confira o nome **enfhase-linkedin-agent**.
 4. Confira se a habilidade está ativada na lista.
 5. Abra uma conversa nova e envie **Use enfhase-linkedin-agent. Começar.**
 6. Confira o menu de quatro opções antes de usar conteúdo real.
