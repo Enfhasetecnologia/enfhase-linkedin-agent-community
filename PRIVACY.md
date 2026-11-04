@@ -19,6 +19,6 @@ informações confidenciais. Anonimize mensagens de terceiros e use apenas texto
 próprios ou autorizados. Um bloqueio posterior não apaga dados já recebidos pelo provedor.
 
 Não coloque conteúdo sensível em issues, comentários, screenshots ou relatórios
-públicos. O canal escolhido para vulnerabilidades é o reporte privado do GitHub no futuro
-repositório de distribuição, ainda pendente de ativação e verificação. Não use
+públicos. O canal para vulnerabilidades é o reporte privado do GitHub, ativado e verificado
+neste repositório de distribuição. Não use
 issues públicas para dados pessoais. A descrição deve ser validada antes do lançamento.

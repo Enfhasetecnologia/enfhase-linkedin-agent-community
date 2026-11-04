@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "enfhase-linkedin-agent",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Portuguese LinkedIn drafting assistant. No account access, publishing or messaging.",
   "author": {
     "name": "Enfhase Tecnologia"

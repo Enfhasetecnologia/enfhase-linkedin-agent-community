@@ -1,6 +1,6 @@
 # Segurança e limites
 
-Versão do núcleo: 0.4.2. Distribuição aprovada pelo titular; candidato ainda não publicado.
+Versão do núcleo: 0.4.2. Distribuição de avaliação publicada sob licença MIT.
 
 O objetivo é preparar rascunhos com privilégios mínimos. Não há conexão própria
 de rede, credenciais, MCP, hooks, publicador ou dependências externas nos helpers.
@@ -28,10 +28,11 @@ Git, conversas de testes, identificadores de instalação, credenciais ou backen
 Hashes não substituem revisão nem assinatura por uma identidade confiável.
 
 Para relatar uma vulnerabilidade, não publique segredos ou dados reais em issues.
-O canal escolhido é o **Private vulnerability reporting do GitHub**, no repositório
-de distribuição. Antes do lançamento, o mantenedor deve habilitá-lo e conferir
-o botão Report a vulnerability em Security → Advisories. A ativação ainda está
-pendente; até essa confirmação, não publique dados sensíveis nem presuma que o canal está ativo.
+O **Private vulnerability reporting do GitHub está ativo** neste repositório.
+Use Security → Advisories → Report a vulnerability para relatar uma falha
+privadamente. Não publique detalhes sensíveis em issues. Secret scanning e push
+protection também estão ativos. A branch main exige PR, CI aprovado e resolução
+das conversas, sem bypass de administradores; force push e exclusão não foram permitidos.
 Não há SLA ou suporte garantido declarado nesta versão.
 
 ## Evidências

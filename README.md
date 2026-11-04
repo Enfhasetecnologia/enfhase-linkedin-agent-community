@@ -11,14 +11,14 @@ Não conecta ao LinkedIn, não pede senha e não publica ou envia mensagens.
 3. Abra uma conversa nova e peça: **Use o Enfhase LinkedIn Agent. Começar.**
 4. Responda com o número de uma opção ou com suas palavras.
 
-**Pacote 0.4.3, helper 0.4.2: versão de avaliação.** A instalação pelo catálogo
+**Pacote 0.4.4, helper 0.4.2: versão de avaliação.** A instalação pelo catálogo
 público da OpenAI ainda depende de aprovação da plataforma.
 A disponibilidade de importação e execução depende da conta e do aplicativo.
 Você não precisa de terminal, API, GitHub conectado ou senha do LinkedIn para usar.
 O consumo e os limites da sua assinatura de IA continuam se aplicando.
 
-[Baixar para ChatGPT](packages/enfhase-linkedin-agent-chatgpt-0.4.3.zip?raw=true) ·
-[Baixar para Claude](packages/enfhase-linkedin-agent-claude-0.4.3.zip?raw=true)
+[Baixar para ChatGPT](packages/enfhase-linkedin-agent-chatgpt-0.4.4.zip?raw=true) ·
+[Baixar para Claude](packages/enfhase-linkedin-agent-claude-0.4.4.zip?raw=true)
 
 ## O que pode fazer
 
@@ -67,8 +67,8 @@ Gemini não integra esta distribuição.
 
 ## Manutenção
 
-Pacotes: `packages/enfhase-linkedin-agent-claude-0.4.3.zip` e
-`packages/enfhase-linkedin-agent-chatgpt-0.4.3.zip`. O arquivo `SHA256SUMS`
+Pacotes: `packages/enfhase-linkedin-agent-claude-0.4.4.zip` e
+`packages/enfhase-linkedin-agent-chatgpt-0.4.4.zip`. O arquivo `SHA256SUMS`
 registra os hashes. Esses hashes verificam integridade em relação à versão
 publicada, sem comprovar autenticidade se a fonte de ambos for comprometida.
 Atualizações manuais exigem instalar/substituir o pacote no aplicativo.
