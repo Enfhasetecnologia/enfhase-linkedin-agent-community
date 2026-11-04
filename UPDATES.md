@@ -24,6 +24,12 @@ Não contrate plano nem mude permissões para seguir este guia. Sem o recurso na
 
 Do not buy a plan or change permissions for this guide. If your account lacks native sync, use the manual ZIP. The helper never downloads or runs updates.
 
+## Automação pessoal / Personal automation
+
+Uma automação particular do mantenedor pode promover melhorias editoriais após merge e validação. Ela não atualiza cópias de outros usuários. Mudanças de código, segurança ou permissões precisam de revisão. Nenhuma contratação ou pagamento é autorizado; os limites da conta continuam valendo.
+
+A maintainer's private automation can promote editorial improvements after merge and validation. It does not update other users' copies. Code, security or permission changes require review. No purchase or payment is authorized; account limits still apply.
+
 ## Para quem mantém / For maintainers
 
 Altere a fonte em `native/enfhase-linkedin-agent`, atualize a versão em `plugin/plugin.json` e no builder, gere os pacotes e abra um PR. O CI testa o núcleo e reconstrói a distribuição automaticamente. Só a `main` revisada é fonte do catálogo. Não há promoção de branches de terceiros.
